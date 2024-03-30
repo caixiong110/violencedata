@@ -1,0 +1,18 @@
+https://blog.csdn.net/weixin_45428910/article/details/132035619
+git init//初始化
+git add README.md//可以添加其他的文件
+git add .//上传全部文件
+git commit -m "first commit"//备注
+git branch -M main //建立新的分支
+git remote add origin https://github.com/xxxx/xxx.git
+git push -u origin main
+
+
+
+echo "# violencedata" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/caixiong110/violencedata.git
+git push -u origin main
